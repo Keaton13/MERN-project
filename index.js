@@ -18,7 +18,7 @@ function log(msg) {
 }
 app.use('/api/get-stuff', log('This is middleware route'));
 
-app.get('/api/get-stuff', log, (req, res) => {
+app.get('/api/get-stu pff', log, (req, res) => {
    res.send({success: true, message: 'Here is some stuff from the back-end'});
 });
 
